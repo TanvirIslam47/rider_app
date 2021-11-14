@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "546423238594",
+    "project_id": "flutter-uber-clone-a26ba",
+    "storage_bucket": "flutter-uber-clone-a26ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546423238594:android:b31f4ed2991a376190305b",
+        "android_client_info": {
+          "package_name": "com.tanvirislam.riderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546423238594-otf5sa4rs6uligeqmovba71t2at824bv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClOOlmLDF1flkWX5erEPIER8m4Ivombes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546423238594-otf5sa4rs6uligeqmovba71t2at824bv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
