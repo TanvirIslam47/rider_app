@@ -35,6 +35,7 @@ dependencies:
   fluttertoast: ^7.1.6
   google_maps_flutter: ^1.0.10
   geolocator: ^6.1.13
+  animated_splash_screen: ^1.1.0
  
 
 

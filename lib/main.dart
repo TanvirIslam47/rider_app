@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_database/firebase_database.dart';
+import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:rider_app/AllScreens/loginScreen.dart';
 import 'package:rider_app/AllScreens/mainscreen.dart';
@@ -25,7 +26,25 @@ class MyApp extends StatelessWidget{
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      initialRoute: MainScreen.idScreen,
+      home: AnimatedSplashScreen(
+        splash:
+        // Image.asset(
+        //   'images/logo.png',
+        //   width: 390.0,
+        //   height: 250.0,
+        // ),
+        Image(
+          image: AssetImage("images/logo.png"),
+          width: 390.0,
+          height: 250.0,
+          alignment: Alignment.center,
+        ),
+        nextScreen: LoginScreen(),
+        splashTransition: SplashTransition.scaleTransition,
+        duration: 3000,
+
+      ),
+      // initialRoute: LoginScreen.idScreen,
       routes:
       {
         RegistrationScreen.idScreen: (context) => RegistrationScreen(),
